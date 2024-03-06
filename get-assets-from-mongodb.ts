@@ -26,7 +26,7 @@ export function builder(yargs) {
 }
 
 export async function handler() {
-  let logFolderName = "data/get-a-list-assets-from-mongodb";
+  let logFolderName = "data/AssetList";
   setLogFile(`${logFolderName}/${ENV_NAME}/assets-array.ts`);
 
   if (!alwaysRunMutation) {

@@ -15,6 +15,14 @@
 <br />
 </div>
 
+## Table of Contents 📖
+
+- [Get a List Assets From MongoDB 🔥](#get-a-list-assets-from-mongodb-)
+  - [Table of Contents 📖](#table-of-contents-)
+  - [Overview: 👻](#overview-)
+  - [Script Breakdown ✍🏽](#script-breakdown-)
+  - [Technologies Used 🚀](#technologies-used-)
+
 ## Overview: 👻
 
 This script retrieves a list of assets from a MongoDB database and generates a TypeScript file containing the data array. The data array is named `ASSETS_FROM_MONGO`. This script allows specifying the number of records to retrieve and the number of records to skip in the MongoDB query.
@@ -64,6 +72,22 @@ This script provides a flexible way to retrieve assets from MongoDB and export t
 💡 <b>Information</b>: This script can be modify to import data into a csv or other file formats.
 
 </span>
+
+## Technologies Used 🚀
+
+The project utilizes various technologies to achieve its functionality and meet its requirements. These technologies include:
+
+- **MongoDB**: MongoDB is a NoSQL database management system that uses a document-oriented data model. It offers flexibility and scalability, making it suitable for a wide range of applications.
+
+- **TypeScript (TS)**: TypeScript is an open-source programming language developed and maintained by Microsoft. It is a superset of JavaScript that adds optional static typing and other features to the language. TypeScript helps improve code quality and maintainability, especially in large-scale projects.
+
+- **moment.js**: moment.js is a JavaScript library for parsing, validating, manipulating, and formatting dates and times. It provides a robust set of functions for working with dates and times, making it easier to handle complex date-related operations in JavaScript applications.
+
+- **fs (File System)**: The fs module is part of Node.js and provides filesystem-related functionality. It allows Node.js applications to interact with the filesystem, including reading and writing files, creating directories, and more.
+
+- **lodash**: lodash is a JavaScript utility library that provides functions for common programming tasks. It offers a wide range of functions for working with arrays, objects, numbers, and strings. The forEach function, for example, is part of the lodash library and is used for iterating over arrays and objects efficiently.
+
+These technologies work together to support the project's requirements and enable the development of robust and scalable software solutions.
 
 <br />
 </div>
